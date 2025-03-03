@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outreach Program</title>
+ <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+  <style>
+    /* Import Google Font */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Background */
+    body {
+      background: url('https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.15752-9/476600820_3985508991662688_8890333099293520392_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHxGBmX3IQCbLtLveMszzisJ3FYJ-rU0O0ncVgn6tTQ7TpxDljweZVbOwDj67wv71XpGcCDDL37edbLhpU_Z0xQ&_nc_ohc=oagtzu-qHBkQ7kNvgFTVK9_&_nc_oc=AdgKroP-VvbfR4Ho_6rpxrHAdzEabh77I_PRbjIp9EZk2bU6bUtLtDjP7uzGY9i2hhU&_nc_zt=23&_nc_ht=scontent.fmnl9-4.fna&oh=03_Q7cD1gGEIRs_kWJHgX9r8j-zGyA8-3p0m2FhZNthupt17t-fNQ&oe=67E3CEC4') no-repeat center center/cover;
+      background-attachment: fixed;
+      color: #333; /* Darker text for readability */
+      scroll-behavior: smooth;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .navbar .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: white;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      margin-left: auto;
+    }
+
+    .navbar ul li {
+      margin: 0 15px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      color: #ff5f5f;
+    }
+
+    /* Section Styling */
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .content-box {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #ff5f5f;
+      font-size: 2rem;
+    }
+
+    /* Programs Section */
+    .programs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .program-box {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: left;
+    }
+
+    .program-box h3 {
+      font-size: 1.5rem;
+      color: #ff5f5f;
+    }
+
+    /* Members Section */
+    .members {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .member-card {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 15px;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .member-card h3 {
+      font-size: 1.3rem;
+      color: #333;
+    }
+
+    /* Contact & Donation Sections */
+    .contact input, .contact textarea,
+    .donation-form input, .donation-form textarea, .donation-form select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact button, .donation-form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #ff5f5f;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .contact button:hover, .donation-form button:hover {
+      background-color: #ff2f2f;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">Outreach Program</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#donations">Donations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="content-box">
+      <h1>Kamay ng Pag-asa: St. Maria De Mattias Center</h1>
+      <p>Making a difference in the community, one step at a time.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="content-box">
+      <h2>About Our Outreach Program</h2>
+      <p>We aim to inspire change and bring hope where it's needed most.</p>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs">
+    <h2>Our Programs</h2>
+    <div class="programs">
+      <div class="program-box">
+        <h3>Community Outreach</h3>
+        <p>Providing direct assistance and support to underserved communities.</p>
+      </div>
+      <div class="program-box">
+        <h3>Talent Showing</h3>
+        <p>Giving a chance to them to show their own talents.</p>
+      </div>
+      <div class="program-box">
+        <h3>Eating</h3>
+        <p>We offer food like spaghetti and sandwich to them</p>
+      </div>
+      <div class="program-box">
+        <h3>Games</h3>
+        <p>Making fun and bonding with them by playing games</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Members Section -->
+  <section id="members">
+    <h2>Our Team Members</h2>
+    <div class="members">
+      <div class="member-card"><h3>Mark Jefferson M. Cuntapay</h3><p>Leader</p></div>
+      <div class="member-card"><h3>Erich B. Leonador</h3><p>Member</p></div>
+      <div class="member-card"><h3>Juan Cortes</h3><p>Member</p></div>
+      <div class="member-card"><h3>Earth Stephen Fortades</h3><p>Member</p></div>
+	    <div class="member-card"><h3>Uriel Balaguer</h3><p>Member</p></div>
+		 <div class="member-card"><h3>Reine Cipriano</h3><p>Member</p></div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="content-box">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Donation Section -->
+  <section id="donations">
+    <div class="content-box">
+      <h2>Make a Difference Today</h2>
+      <p>Your donation helps provide essential services to children and families in need.</p>
+      <form class="donation-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Message (Optional)" rows="4"></textarea>
+        <select>
+          <option value="one-time">One-time Donation</option>
+          <option value="monthly">Monthly Donation</option>
+        </select>
+        <button type="submit">Donate Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Kamay ng Pag-asa Outreach Program</p>
+  </footer>
+
+</body>
+</html>
